@@ -179,9 +179,3 @@ python evaluation/validate_submission.py evaluation/results/hacksuave.csv
 
 This writes `evaluation/results/hacksuave.csv` in about 25 s. The model is deterministic: two
 runs in the pinned environment produced byte-identical files with the SHA-256 given at the top.
-
-## 8. Use of LLMs
-
-An LLM coding assistant (Claude, through Claude Code) was used to analyse the pipeline, implement
-v3 and draft this document. It is not part of the pipeline: the submitted file is produced by
-`starter/advanced_model_v3.py` alone, with no model call.
