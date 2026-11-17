@@ -1,0 +1,11 @@
+# The exact environment that produced the submitted possession file. Python 3.12.9.
+#
+#     pip install -r requirements-submission.txt
+#     python starter/advanced_model_v3.py --name hacksuave
+#
+# writes evaluation/results/hacksuave.csv from the data bundle in data/ (or MTAH_DATA_DIR).
+# The model itself needs numpy and the standard library only.
+numpy==2.2.4
+
+# Only for evaluation/validate_submission.py and evaluation/run_evaluation.py.
+pandas==3.1.1
